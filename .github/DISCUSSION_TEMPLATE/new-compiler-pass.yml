@@ -31,9 +31,6 @@ body:
     id: performance_expectations
     attributes:
       label: "2. Performance expectations"
-      description: |
-        a. What circuit types will this improve? (e.g., dynamic circuits, error correction)  
-        b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)
       value: |
         Example response:
         "This should reduce 2-qubit gates in circuits with >50 Toffoli gates..."
