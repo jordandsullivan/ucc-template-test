@@ -1,5 +1,6 @@
 title: "[NEW PASS] "
 labels: ["compiler-pass"]
+category: "New compiler pass"
 body:
   - type: markdown
     attributes:
