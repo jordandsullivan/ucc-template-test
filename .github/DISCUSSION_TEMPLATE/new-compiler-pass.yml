@@ -19,7 +19,7 @@ body:
       label: "1. How the technique works"
       description: |
         a. Provide a written abstract without too much jargon (cite arXiv paper/GitHub repo if applicable)  
-        b. *(Optional)* Include a diagram showing an example circuit transformation
+        b. *(Optional)* Include a diagram showing an example circuit transformation (you can add this later)
       placeholder: |
         Example response:
         "This pass optimizes 2-qubit gate sequences using techniques from [Paper XYZ]. Here's how it transforms a CX gate sequence..."
@@ -37,7 +37,7 @@ body:
         Example response:
         "This should reduce 2-qubit gates by ~30% for circuits with >50 CX gates..."
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
@@ -46,11 +46,6 @@ body:
         > After completing sections 1-2, click "Start discussion". **Keep the template structure intact!**  
         > Maintainers will respond within 2 business days with next steps.
 
-
-  - type: markdown
-    attributes:
-      value: |
-        #### <------ Stop here and wait for proposal approval ------>
 
   - type: markdown
     attributes:
