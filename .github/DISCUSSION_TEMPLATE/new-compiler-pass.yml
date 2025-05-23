@@ -48,9 +48,6 @@ body:
     id: development
     attributes:
       label: "Develop your compiler pass"
-      description: |
-        a. What circuit types will this improve? (e.g., dynamic circuits, error correction)  
-        b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)
       value: |
         recommend coming back to this discussion and editing as you move along through the development process. 
         Develop your compiler pass
@@ -64,8 +61,12 @@ body:
         
         6. Implement the New Pass in the UCC Codebase:  
         Documentation to guide you through this process is available in the [user guide](https://ucc.readthedocs.io/en/latest/user_guide.html). For more detailed information and examples, refer to the [Qiskit documentation](https://docs.quantum.ibm.com/guides/custom-transpiler-pass).
-        
-        ------- 
+
+  - type: textarea
+    id: benchmarking
+    attributes:
+      label: "Benchmark performance"
+      value: |
         ### Benchmark performance
         UCC benchmarks live in the separate repo called [ucc-bench](https://github.com/unitaryfoundation/ucc-bench). We have a [suite of quantum circuits](https://github.com/unitaryfoundation/ucc-bench/tree/main/benchmarks) that we regularly benchmark UCC and other popular quantum compilers on. Several of the key metrics we track are:
         
