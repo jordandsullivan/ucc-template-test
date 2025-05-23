@@ -18,12 +18,11 @@ body:
     id: technique_work
     attributes:
       label: "1. How the technique works"
-      description: |
-        a. Provide a written abstract without too much jargon (cite arXiv paper/GitHub repo if applicable)  
-        b. *(Optional)* Attach a diagram showing an example circuit transformation (you can add this later)
       value: |
-        Example response:
-        "This pass optimizes 2-qubit gate sequences using techniques from [Paper XYZ]. Here's how it transforms a CX gate sequence..."
+        a. Provide a written abstract without too much jargon (cite arXiv paper/GitHub repo if applicable)  
+        
+        b. *(Optional)* Attach a diagram showing an example circuit transformation (you can add this later)
+
     validations:
       required: true
   
@@ -32,9 +31,9 @@ body:
     attributes:
       label: "2. Performance expectations"
       value: |
-        Example response:
-        "This should reduce 2-qubit gates in circuits with >50 Toffoli gates..."
-    validations:
+        a. What circuit types will this improve? (e.g., dynamic circuits, error correction)  
+        
+        b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)    validations:
       required: false
 
   - type: markdown
