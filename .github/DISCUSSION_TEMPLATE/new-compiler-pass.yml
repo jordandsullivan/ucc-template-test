@@ -25,11 +25,6 @@ body:
         "This pass optimizes 2-qubit gate sequences using techniques from [Paper XYZ]. Here's how it transforms a CX gate sequence..."
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ### Propose your compiler pass
-        So you want to implement a new compilation technique in UCC? Huzzah! To get started, please tell us:
   
   - type: textarea
     id: performance_expectations
