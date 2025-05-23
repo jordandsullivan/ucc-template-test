@@ -1,4 +1,4 @@
-labels: ["My pass"]
+labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
   - type: markdown
