@@ -1,7 +1,6 @@
 labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
-# Hidden field containing template structure
   - type: input
     id: full_template
     attributes:
