@@ -1,6 +1,27 @@
 labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
+# Hidden field containing template structure
+  - type: input
+    id: full_template
+    attributes:
+      label: "Full Proposal"
+      description: "DO NOT EDIT - Template container"
+      value: |
+        ### _What's a compiler pass?_
+        [Description here...]
+
+        ## Proposal
+        **1. How the technique works**  
+        {{ technique_work }}
+
+        **2. Performance expectations**  
+        {{ performance_expectations }}
+
+        [Rest of template...]
+    validations:
+      required: true
+    visible: false
   - type: markdown
     attributes:
       value: |
