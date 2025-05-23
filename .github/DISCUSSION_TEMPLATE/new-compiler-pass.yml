@@ -1,6 +1,10 @@
 labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
+
+  - type: markdown
+    attributes:
+      value: | We're very excited you want to implement a new compilation technique in UCC! To get started, please provide us the following:
   - type: textarea
     id: technique_work
     attributes:
@@ -34,7 +38,6 @@ body:
         > After completing sections 1-2, click "Start discussion". **Keep the template structure intact!**  
         > Maintainers will respond within 2 business days with next steps.
 
-  # ... previous sections ...
 
   - type: markdown
     attributes:
