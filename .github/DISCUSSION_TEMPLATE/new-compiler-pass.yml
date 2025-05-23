@@ -1,34 +1,7 @@
 labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ### _Keep this template structure_  
-        **Instructions:** Replace the text in each section below
-        ------------------------------------------------------
 
-  - type: textarea
-    id: proposal
-    attributes:
-      label: "Full Proposal"
-      description: "Maintain the headers as you write"
-      placeholder: |
-        ## How the Technique Works
-        [Your answer...]
-
-        ## Performance Expectations
-        [Your answer...]
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ------------------------------------------------------
-        **Remember to:**  
-        - Keep section headers intact  
-        - Upload files using the paperclip icon
   - type: markdown
     attributes:
       value: |
@@ -48,7 +21,7 @@ body:
       description: |
         a. Provide a written abstract without too much jargon (cite arXiv paper/GitHub repo if applicable)  
         b. *(Optional)* Attach a diagram showing an example circuit transformation (you can add this later)
-      placeholder: |
+      value: |
         Example response:
         "This pass optimizes 2-qubit gate sequences using techniques from [Paper XYZ]. Here's how it transforms a CX gate sequence..."
     validations:
