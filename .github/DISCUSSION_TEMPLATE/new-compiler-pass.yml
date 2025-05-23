@@ -11,8 +11,7 @@ body:
     attributes:
       value: |
         ### Propose your compiler pass
-        So you want to implement a new compilation technique in UCC? Huzzah!
-        To get started, please provide us the following:
+        So you want to implement a new compilation technique in UCC? Huzzah! To get started, please tell us:
 
   - type: textarea
     id: technique_work
