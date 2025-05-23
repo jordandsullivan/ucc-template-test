@@ -42,13 +42,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is the end of the Proposal form. 
-        **Important:** After filling in 1-2, click "Start discussion" at the bottom of this page. **Leave the rest of the template below intact!** You'll be editing it later :)
+        **Important:** After filling out sections 1-2, scroll to the bottom of this page and click "Start discussion". **Leave the rest of the template below intact!** You'll be editing it later :)
         Maintainers will respond promptly to approve your proposal or provide feedback.        
 
   - type: markdown
     attributes:
       value: |  
+        ## After maintainers have approved your proposal...
         We recommend coming back to this discussion and editing as you move along through the development process. 
         ### Develop your compiler pass
         Once the maintainers have given you the go-ahead...
