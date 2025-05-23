@@ -11,7 +11,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Propose your compiler pass
+        ### Propose your compiler pass ✨
         So you want to implement a new compilation technique in UCC? Huzzah! To get started, please tell us:
 
   - type: textarea
@@ -44,7 +44,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Stop here! 
+        ## 🛑 Stop here and wait for maintainer approval :) 🛑
 
   - type: textarea
     id: development
