@@ -50,6 +50,7 @@ body:
     id: development
     attributes:
       label: "Develop your compiler pass"
+      description: "Hello"
       value: |
         Example response:
         "This should reduce 2-qubit gates in circuits with >50 Toffoli gates..."
