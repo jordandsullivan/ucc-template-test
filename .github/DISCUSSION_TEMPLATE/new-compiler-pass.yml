@@ -39,9 +39,9 @@ body:
     attributes:
       value: |
         **Important:** 
-        After filling out sections 1-2, scroll to the bottom of this page and click "Start discussion". 
-        **Leave the rest of the template below intact!** You'll be editing it later :)
-        Maintainers will respond promptly to approve your proposal or provide feedback.        
+        - After filling out sections 1-2, scroll to the bottom of this page and click "Start discussion". 
+        - **Leave the rest of the template below intact!** You'll be editing it later :)
+        - Maintainers will respond promptly to approve your proposal or provide feedback.        
 
   - type: markdown
     attributes:
