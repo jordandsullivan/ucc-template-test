@@ -40,15 +40,18 @@ body:
       value: |
         **Important:** After filling out sections 1-2, scroll to the bottom of this page and click "Start discussion". **Leave the rest of the template below intact!** You'll be editing it later :)
         Maintainers will respond promptly to approve your proposal or provide feedback.        
-        
+
+    - type: markdown
+    attributes:
+      value: |
+        ## Stop here! 
 
   - type: textarea
     id: development
     attributes:
       label: "Develop your compiler pass"
       value: |
-        recommend coming back to this discussion and editing as you move along through the development process. 
-        Once the maintainers have given you the go-ahead...
+        Once the maintainers have given you the go-ahead, you can work on the next sections:
         
         3. Create a [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) of UCC to develop in: [link your fork here]  
             **Hint:** We recommending [syncing your fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) with the main branch of UCC to stay up to date with changes. 
