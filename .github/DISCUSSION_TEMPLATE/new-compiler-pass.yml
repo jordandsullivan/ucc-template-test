@@ -33,7 +33,8 @@ body:
       value: |
         a. What circuit types will this improve? (e.g., dynamic circuits, error correction)  
         
-        b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)    validations:
+        b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)
+    validations:
       required: false
 
   - type: markdown
