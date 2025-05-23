@@ -42,6 +42,7 @@ body:
       value: |
         **Important:** After filling out sections 1-2, scroll to the bottom of this page and click "Start discussion". **Leave the rest of the template below intact!** You'll be editing it later :)
         Maintainers will respond promptly to approve your proposal or provide feedback.        
+        ## After maintainers have approved your proposal...
 
   - type: textarea
     id: development
@@ -51,7 +52,6 @@ body:
         a. What circuit types will this improve? (e.g., dynamic circuits, error correction)  
         b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)
       value: |
-        After maintainers have approved your proposal...
         recommend coming back to this discussion and editing as you move along through the development process. 
         Develop your compiler pass
         Once the maintainers have given you the go-ahead...
