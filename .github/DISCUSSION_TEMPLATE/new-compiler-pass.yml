@@ -20,7 +20,6 @@ body:
       label: "1. How the technique works"
       value: |
         a. Provide a written abstract without too much jargon (cite arXiv paper/GitHub repo if applicable)  
-        
         b. *(Optional)* Attach a diagram showing an example circuit transformation (you can add this later)
 
     validations:
@@ -32,7 +31,6 @@ body:
       label: "2. Performance expectations"
       value: |
         a. What circuit types will this improve? (e.g., dynamic circuits, error correction)  
-        
         b. Which [UCC metrics](https://ucc.readthedocs.io/en/latest/benchmarking.html) will it impact? (gate counts, errors, etc.)
     validations:
       required: false
@@ -42,7 +40,7 @@ body:
       value: |
         **Important:** After filling out sections 1-2, scroll to the bottom of this page and click "Start discussion". **Leave the rest of the template below intact!** You'll be editing it later :)
         Maintainers will respond promptly to approve your proposal or provide feedback.        
-        ## After maintainers have approved your proposal...
+        
 
   - type: textarea
     id: development
@@ -50,7 +48,6 @@ body:
       label: "Develop your compiler pass"
       value: |
         recommend coming back to this discussion and editing as you move along through the development process. 
-        Develop your compiler pass
         Once the maintainers have given you the go-ahead...
         
         3. Create a [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) of UCC to develop in: [link your fork here]  
@@ -67,7 +64,6 @@ body:
     attributes:
       label: "Benchmark performance"
       value: |
-        ### Benchmark performance
         UCC benchmarks live in the separate repo called [ucc-bench](https://github.com/unitaryfoundation/ucc-bench). We have a [suite of quantum circuits](https://github.com/unitaryfoundation/ucc-bench/tree/main/benchmarks) that we regularly benchmark UCC and other popular quantum compilers on. Several of the key metrics we track are:
         
         - Pure compilation:
