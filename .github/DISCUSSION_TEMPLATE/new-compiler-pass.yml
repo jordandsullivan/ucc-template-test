@@ -1,11 +1,11 @@
 labels: ["My pass"]
-body: 
+title: "[NEW PASS] "
+body:
   - type: markdown
     attributes:
       value: |
-        ### Propose your compiler pass
-        We're very excited you want to implement a new compilation technique in UCC! To get started, please provide us the following:
-
+        ### _What's a compiler pass?_
+        In UCC (Unitary Compiler Collection), we consider any technique which takes a "raw" uncompiled quantum circuit and returns a circuit which performs better on our [benchmarks](https://github.com/unitaryfoundation/ucc-bench?tab=readme-ov-file#latest-results) to be a good compiler pass. You can work at any layer of the quantum computing stack, from low-level hardware control to high-level algorithmic optimization.
   - type: textarea
     id: technique_work
     attributes:
