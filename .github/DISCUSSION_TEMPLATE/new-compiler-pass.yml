@@ -1,44 +1,34 @@
 labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
-  # Hidden field containing template structure
-  - type: input
-    id: full_template
+  - type: markdown
+    attributes:
+      value: |
+        ### _Keep this template structure_  
+        **Instructions:** Replace the text in each section below
+        ------------------------------------------------------
+
+  - type: textarea
+    id: proposal
     attributes:
       label: "Full Proposal"
-      description: "DO NOT EDIT - Template container"
+      description: "Maintain the headers as you write"
+      placeholder: |
+        ## How the Technique Works
+        [Your answer...]
+
+        ## Performance Expectations
+        [Your answer...]
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
       value: |
-        ### _What's a compiler pass?_
-        [Description here...]
-
-        ## Proposal
-        **1. How the technique works**  
-        {{ technique_work }}
-
-        **2. Performance expectations**  
-        {{ performance_expectations }}
-
-        [Rest of template...]
-    validations:
-      required: true
-    visible: false
-
-  # Visible fields for user input
-  - type: textarea
-    id: technique_work
-    attributes:
-      label: "Technical Description"
-      description: "Answer will be inserted into section 1"
-    validations:
-      required: true
-
-  - type: textarea 
-    id: performance_expectations
-    attributes:
-      label: "Performance Details"
-      description: "Answer goes into section 2"
-    validations:
-      required: true
+        ------------------------------------------------------
+        **Remember to:**  
+        - Keep section headers intact  
+        - Upload files using the paperclip icon
   - type: markdown
     attributes:
       value: |
