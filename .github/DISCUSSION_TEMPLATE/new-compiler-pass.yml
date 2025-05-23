@@ -1,10 +1,12 @@
 labels: ["New Compiler Pass"]
 title: "[NEW PASS] "
 body:
-
   - type: markdown
     attributes:
-      value: | We're very excited you want to implement a new compilation technique in UCC! To get started, please provide us the following:
+      value: |
+        ### Propose your compiler pass
+        We're very excited you want to implement a new compilation technique in UCC! To get started, please provide us the following:
+
   - type: textarea
     id: technique_work
     attributes:
